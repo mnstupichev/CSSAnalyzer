@@ -1,0 +1,1603 @@
+{
+  "total_sites": 16,
+  "categories": {
+    "universities": {
+      "total_sites": 8,
+      "sites": {
+        "МГУ": {
+          "name": "МГУ",
+          "url": "https://www.msu.ru",
+          "inline_css": {},
+          "external_css": [],
+          "features_summary": {},
+          "total_features_found": 0,
+          "error": "Unexpected error in _crawl_web at line 718 in _crawl_web (..\\.venv\\Lib\\site-packages\\crawl4ai\\async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.msu.ru/\nCall log:\n  - navigating to \"https://www.msu.ru/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 713                                   tag=\"GOTO\",\n 714                                   params={\"url\": url},\n 715                               )\n 716                               response = None\n 717                           else:\n 718 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 719   \n 720                       # ──────────────────────────────────────────────────────────────\n 721                       # Walk the redirect chain.  Playwright returns only the last\n 722                       # hop, so we trace the `request.redirected_from` links until the\n 723                       # first response that differs from the final one and surface its"
+        },
+        "СПбГУ": {
+          "name": "СПбГУ",
+          "url": "https://spbu.ru",
+          "inline_css": {},
+          "external_css": [
+            {
+              "source": "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800",
+              "total_lines": 451,
+              "total_chars": 29321,
+              "features": {}
+            },
+            {
+              "source": "https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&amp;subset=latin,cyrillic",
+              "total_lines": 129,
+              "total_chars": 5669,
+              "features": {}
+            },
+            {
+              "source": "https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=latin,cyrillic",
+              "total_lines": 57,
+              "total_chars": 2601,
+              "features": {}
+            },
+            {
+              "source": "https://spbu.ru/sites/default/files/css/css_9m8-tA3IQf8ThlLQYTTZUyEweCvyR908Tg0XCbKYOfY.css",
+              "total_lines": 23,
+              "total_chars": 7063,
+              "features": {}
+            },
+            {
+              "source": "https://spbu.ru/sites/default/files/css/css_ZIvt70Zm3z3fRx-i3Uam4O_hNgH1_swz2E0jxHe8yxo.css",
+              "total_lines": 5,
+              "total_chars": 209901,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": "container:after",
+                      "line": 1,
+                      "context": "dding-top:50px;}}.g-container{margin-right:0;margin-left:0;padding-right:15px;padding-left:15px;}.g-container:after{display:table;clear:both;content:' ';}@media (min-width:768px){.g-container{margin-r"
+                    },
+                    {
+                      "match": "container:focus",
+                      "line": 1,
+                      "context": ":auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.chosen-container:focus{outline:none;}.chosen-single{position:relative;display:block;padding-right:40px;font"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 2,
+              "description": "Адаптивность на уровне компонентов"
+            }
+          },
+          "total_features_found": 1
+        },
+        "МФТИ": {
+          "name": "МФТИ",
+          "url": "https://mipt.ru",
+          "inline_css": {
+            "source": "https://mipt.ru (inline)",
+            "total_lines": 19,
+            "total_chars": 34143,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://mipt.ru/f/dist/styles.9403d43d9c6d52a1.css",
+              "total_lines": 12,
+              "total_chars": 83683,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": "container:empty",
+                      "line": 1,
+                      "context": "top:0;left:0;height:100%;width:100%}.cdk-overlay-container{position:fixed;z-index:1000}.cdk-overlay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute;z-index:1000"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            },
+            {
+              "source": "https://mipt.ru/f/dist/styles.9403d43d9c6d52a1.css",
+              "total_lines": 12,
+              "total_chars": 83683,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": "container:empty",
+                      "line": 1,
+                      "context": "top:0;left:0;height:100%;width:100%}.cdk-overlay-container{position:fixed;z-index:1000}.cdk-overlay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute;z-index:1000"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 2,
+              "description": "Адаптивность на уровне компонентов"
+            }
+          },
+          "total_features_found": 1
+        },
+        "ВШЭ": {
+          "name": "ВШЭ",
+          "url": "https://www.hse.ru",
+          "inline_css": {
+            "source": "https://www.hse.ru (inline)",
+            "total_lines": 148,
+            "total_chars": 6680,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://www.hse.ru/f/src/global/css/glide.core.min.css",
+              "total_lines": 2,
+              "total_chars": 939,
+              "features": {}
+            },
+            {
+              "source": "https://www.hse.ru/f/src/global/css/owl.carousel2.min.css",
+              "total_lines": 26,
+              "total_chars": 4718,
+              "features": {}
+            },
+            {
+              "source": "https://www.hse.ru/f/src/home/sitemap_main.css",
+              "total_lines": 502,
+              "total_chars": 10946,
+              "features": {}
+            },
+            {
+              "source": "https://www.hse.ru/f/src/global/css/vision.css",
+              "total_lines": 634,
+              "total_chars": 18523,
+              "features": {}
+            },
+            {
+              "source": "https://www.hse.ru/f/src/home/home_new.css",
+              "total_lines": 5694,
+              "total_chars": 123241,
+              "features": {}
+            },
+            {
+              "source": "https://www.hse.ru/f/src/global/css/main_icons.css",
+              "total_lines": 841,
+              "total_chars": 79354,
+              "features": {}
+            }
+          ],
+          "features_summary": {},
+          "total_features_found": 0
+        },
+        "ИТМО": {
+          "name": "ИТМО",
+          "url": "https://itmo.ru",
+          "inline_css": {},
+          "external_css": [
+            {
+              "source": "https://itmo.ru/_next/static/css/34e557787841563c.css",
+              "total_lines": 6,
+              "total_chars": 194951,
+              "features": {}
+            },
+            {
+              "source": "https://itmo.ru/_next/static/css/3f2bf7f7e978e8cc.css",
+              "total_lines": 1,
+              "total_chars": 16182,
+              "features": {}
+            },
+            {
+              "source": "https://itmo.ru/_next/static/css/00e5db8bb5deef7d.css",
+              "total_lines": 1,
+              "total_chars": 38104,
+              "features": {}
+            },
+            {
+              "source": "https://itmo.ru/_next/static/css/082178b8604136c6.css",
+              "total_lines": 1,
+              "total_chars": 7455,
+              "features": {}
+            }
+          ],
+          "features_summary": {},
+          "total_features_found": 0
+        },
+        "МИСиС": {
+          "name": "МИСиС",
+          "url": "https://misis.ru",
+          "inline_css": {
+            "source": "https://misis.ru (inline)",
+            "total_lines": 15,
+            "total_chars": 709,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://misis.ru/rev-17/f/assets/misis.bundle.css",
+              "total_lines": 1,
+              "total_chars": 442693,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 5,
+                  "instances": [
+                    {
+                      "match": "container:after",
+                      "line": 1,
+                      "context": "gin-bottom:28px}.container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-w"
+                    },
+                    {
+                      "match": "container:before",
+                      "line": 1,
+                      "context": "container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-width:480px){.cont"
+                    },
+                    {
+                      "match": "container:after",
+                      "line": 1,
+                      "context": ";padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-width:480px){.container{width:750px}}@media(min-width:992px){."
+                    },
+                    {
+                      "match": "Container:hover ",
+                      "line": 1,
+                      "context": "expanded .mCSB_dragger_bar,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{height:12px;margin:2px auto}.mCSB_scrollTools_horizo"
+                    },
+                    {
+                      "match": "Container:hover ",
+                      "line": 1,
+                      "context": "expanded+.mCSB_draggerRail,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{height:8px;margin:4px 0}.mCSB_scrollTools,.mCSB_scrollTools .mCSB_"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 20,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "lex-align:end;align-items:flex-end;padding-bottom:6px}.announce_button{margin-bottom:.8rem}.col-md-4:has(.announce){margin-bottom:1.2rem}.announce{background-color:#0a1e64;border-radius:1.6rem;clear:b"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "nance,.color02 .col2_postgraduate_service,.color02 .postgraduate-benefits{background:#000}.cols-flex:has(.col2_postgraduate_finance){gap:2rem;margin:0}.col2_postgraduate_finance,.col2_postgraduate_ser"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "coration-color:rgba(0,0,0,.3)!important;text-decoration-color:rgba(0,0,0,.3)!important}}.breadcrumbs:has(li:first-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}."
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ation-color:rgba(0,0,0,.3)!important}}.breadcrumbs:has(li:first-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}.breadcrumbs:has(li:nth-child(2):last-child) .link,"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "st-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}.breadcrumbs:has(li:nth-child(2):last-child) .link,.breadcrumbs:has(li:nth-child(2):last-child) a{max-width:40vw"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://crm.misis.ru/bitrix/js/crm/site/form/dist/app.bundle.min.css?20501",
+              "total_lines": 10,
+              "total_chars": 73792,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": "container:after",
+                      "line": 6,
+                      "context": "te(-50%,-50%);transform:rotate(45deg) translate(-50%,-50%)}.b24-form-control-list .b24-form-control-container:after{content:\"\";position:absolute;height:7px;width:7px;border-right:2px solid #000;border"
+                    },
+                    {
+                      "match": "container:after",
+                      "line": 6,
+                      "context": "form:translateX(-50%) translateY(-50%) rotate(45deg)}.b24-form-control-list:hover .b24-form-control-container:after{opacity:1}.b24-form-control-list-selector-item{width:100%;border-bottom:1px solid rg"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ems:center}.b24-form-sign-abuse-popup{padding:12px;text-align:start}.b24-form .b24-window-scrollable:has(.b24-form-sign-abuse-popup){padding-bottom:0}.b24-form .b24-form-sign-abuse-link:hover{opacity:"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://misis.ru/rev-17/f/assets/misis-2.bundle.css",
+              "total_lines": 6,
+              "total_chars": 237455,
+              "features": {
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "-ms-flex:1 1 auto;flex:1 1 auto;font-weight:700}.ss-content .ss-list .ss-optgroup .ss-optgroup-label:has(.ss-arrow){cursor:pointer}.ss-content .ss-list .ss-optgroup .ss-optgroup-label .ss-optgroup-act"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "important}.filters-form:not(.filters-form--not-hide) .opened.dropdown--long:not(.dropdown--not-hide):has(input:checked){bottom:8rem}.filters-form:not(.filters-form--not-hide) .opened.dropdown--long:no"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://misis.ru/rev-17/f/assets/contrast.bundle.css",
+              "total_lines": 1,
+              "total_chars": 131467,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": "container:after",
+                      "line": 1,
+                      "context": "d-color:#fff;color:#000;opacity:.7}.color-scheme-inversion .b24-form-control-list .b24-form-control-container:after{border-bottom-color:#fff;border-right-color:#fff}.color-scheme-inversion .outstandin"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 4,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "up,.disable-images .partners,.disable-images .swiper{display:none}.disable-images .gallery--no-popup:has(img[alt]:not([alt=\"\"])),.disable-images .gallery:has(img[alt]:not([alt=\"\"])),.disable-images .p"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "display:none}.disable-images .gallery--no-popup:has(img[alt]:not([alt=\"\"])),.disable-images .gallery:has(img[alt]:not([alt=\"\"])),.disable-images .partners:has(img[alt]:not([alt=\"\"])),.disable-images ."
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "g[alt]:not([alt=\"\"])),.disable-images .gallery:has(img[alt]:not([alt=\"\"])),.disable-images .partners:has(img[alt]:not([alt=\"\"])),.disable-images .swiper:has(img[alt]:not([alt=\"\"])){display:block;left:"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "mg[alt]:not([alt=\"\"])),.disable-images .partners:has(img[alt]:not([alt=\"\"])),.disable-images .swiper:has(img[alt]:not([alt=\"\"])){display:block;left:-200vw;position:fixed;top:-200vh;visibility:hidden}."
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://misis.ru/rev-17/f/assets/home.bundle.css",
+              "total_lines": 1,
+              "total_chars": 863,
+              "features": {}
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 8,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 27,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "МИФИ": {
+          "name": "МИФИ",
+          "url": "https://mephi.ru",
+          "inline_css": {
+            "source": "https://mephi.ru (inline)",
+            "total_lines": 39,
+            "total_chars": 2285,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://mephi.ru/sites/all/themes/modern/style-ie8.css?t8sw6m",
+              "total_lines": 1,
+              "total_chars": 185,
+              "features": {}
+            },
+            {
+              "source": "https://mephi.ru/sites/all/themes/modern/style-ie67.css?t8sw6m",
+              "total_lines": 1,
+              "total_chars": 185,
+              "features": {}
+            }
+          ],
+          "features_summary": {},
+          "total_features_found": 0
+        },
+        "Бауманка": {
+          "name": "Бауманка",
+          "url": "https://bmstu.ru",
+          "inline_css": {},
+          "external_css": [
+            {
+              "source": "https://bmstu.ru/_next/static/css/8a670f65199b8cf27b6ced5c5ad0c6d6993a6e61_CSS.97d38ef1.chunk.css",
+              "total_lines": 1265,
+              "total_chars": 26885,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/650635afccf8f67fb905f7f218d3c56e8cc241a9_CSS.a43c68d2.chunk.css",
+              "total_lines": 1808,
+              "total_chars": 41340,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/styles.aac062b7.chunk.css",
+              "total_lines": 28971,
+              "total_chars": 540391,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/pages/_app.b07aa19b.chunk.css",
+              "total_lines": 258,
+              "total_chars": 5671,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/4711b69a828f53cd4ac57def32bc9ea4a7ecf72a_CSS.8c9d20c4.chunk.css",
+              "total_lines": 1415,
+              "total_chars": 26246,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/ff207b801842daf737216b4670362a03e77a8f68_CSS.4f050d3f.chunk.css",
+              "total_lines": 548,
+              "total_chars": 25260,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/32c55bfaca8a75c71008516e9ef9331e0861a329_CSS.d5668a83.chunk.css",
+              "total_lines": 1830,
+              "total_chars": 33908,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/124d04980c20d0ebe31c69cb70f0c9d8d1bb2639_CSS.c9715abc.chunk.css",
+              "total_lines": 1222,
+              "total_chars": 22766,
+              "features": {}
+            },
+            {
+              "source": "https://bmstu.ru/_next/static/css/pages/home.ab59a608.chunk.css",
+              "total_lines": 126,
+              "total_chars": 2221,
+              "features": {}
+            }
+          ],
+          "features_summary": {},
+          "total_features_found": 0
+        }
+      }
+    },
+    "web_courses": {
+      "total_sites": 8,
+      "sites": {
+        "Яндекс Практикум": {
+          "name": "Яндекс Практикум",
+          "url": "https://practicum.yandex.ru",
+          "inline_css": {
+            "source": "https://practicum.yandex.ru (inline)",
+            "total_lines": 4241,
+            "total_chars": 143183,
+            "features": {
+              "css_nesting": {
+                "name": "CSS Nesting (native)",
+                "count": 4,
+                "instances": [
+                  {
+                    "match": "&:hover",
+                    "line": 1331,
+                    "context": "tify-content: center;\n        cursor: pointer;\n        transition: background-color 300ms;\n\n        &:hover{\n             background-color:#2B2B2B;\n        }\n    }\n\n    .swiper {\n        overflow: vis"
+                  },
+                  {
+                    "match": "&:hover",
+                    "line": 1674,
+                    "context": "transition: background 200ms;\n        display: block;\n        box-sizing: border-box;\n\n        &:hover {\n            background: #E0E0E0;\n        }\n\n        svg {\n            display: block;\n        }"
+                  },
+                  {
+                    "match": "&:hover",
+                    "line": 1874,
+                    "context": "inks__item a {\n            /* color: #1E1E1E; */\n            text-decoration: none;\n\n            /* &:hover {\n            color: var(--link-hover-color) !important;\n        } */\n        }\n    }\n\n    ."
+                  },
+                  {
+                    "match": "&>div",
+                    "line": 904,
+                    "context": "height: 100%;\n    }\n\n    [id^=\"direction-features__item__descr\"] {\n        opacity: 0;\n\n        &>div>div>div {\n            width: 70%;\n        }\n    }\n\n    #direction-features__item__descr4>div>div>d"
+                  }
+                ],
+                "description": "Нативная вложенность селекторов"
+              },
+              "has_selector": {
+                "name": ":has() Selector",
+                "count": 8,
+                "instances": [
+                  {
+                    "match": ":has(",
+                    "line": 38,
+                    "context": "2px);height:calc(100% - 2px)}.lc-borders__component-wrapper_grid-group{overflow:visible}.lc-borders:has(.ya-share2__popup),.lc-borders__component-wrapper:has(.ya-share2__popup){overflow:visible}\n\n.lc-"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 38,
+                    "context": "rapper_grid-group{overflow:visible}.lc-borders:has(.ya-share2__popup),.lc-borders__component-wrapper:has(.ya-share2__popup){overflow:visible}\n\n.lc-list-item__image-wrapper{display:flex}.lc-list-item__"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 193,
+                    "context": "der: 1px white solid;\n        border-radius: 6px;\n        box-sizing: border-box;\n    }\n\n    .navbar:has(.dropdown:hover) {\n        background-color: rgba(255, 255, 255, 0.75);\n    }\n\n    @media (max-"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 886,
+                    "context": "c-multi-background__background {\n        background: #3C3C3C !important;\n    }\n\n    .lc-link-wrapper:has([id^=\"direction-features__item\"]):hover .lc-multi-background__backgrounds-container>.lc-image-b"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 891,
+                    "context": "age-background__mask-image-wrapper {\n        display: none;\n    }\n\n    /*  \n    .lc-multi-background:has(#direction-features__item4:hover) .lc-multi-background .lc-multi-background__backgrounds-contai"
+                  }
+                ],
+                "description": "Родительский селектор"
+              }
+            }
+          },
+          "external_css": [
+            {
+              "source": "https://lpc-ext.s3.yandex.net/static/_lib/swiper/11.0.6/swiper-bundle.min.css",
+              "total_lines": 13,
+              "total_chars": 18712,
+              "features": {}
+            }
+          ],
+          "features_summary": {
+            "css_nesting": {
+              "name": "CSS Nesting (native)",
+              "total_occurrences": 4,
+              "description": "Нативная вложенность селекторов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 8,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "Skillbox": {
+          "name": "Skillbox",
+          "url": "https://skillbox.ru",
+          "inline_css": {
+            "source": "https://skillbox.ru (inline)",
+            "total_lines": 5,
+            "total_chars": 55,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/2a0b051.css",
+              "total_lines": 1,
+              "total_chars": 311474,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 9,
+                  "instances": [
+                    {
+                      "match": "container:hover",
+                      "line": 1,
+                      "context": "-width:568px;min-width:260px;padding:4px;position:absolute;z-index:3}@media(min-width:1024px){.iti--container:hover{cursor:pointer}}.iti--container.iti--ui-modal{position:absolute;z-index:7}.iti *{box"
+                    },
+                    {
+                      "match": "container:hover",
+                      "line": 1,
+                      "context": "al-code{margin-left:6px}@media(min-width:1024px){.iti--allow-dropdown input[disabled]+.iti__country-container:hover,.iti--allow-dropdown input[readonly]+.iti__country-container:hover{cursor:default}.i"
+                    },
+                    {
+                      "match": "container:hover",
+                      "line": 1,
+                      "context": "wn input[disabled]+.iti__country-container:hover,.iti--allow-dropdown input[readonly]+.iti__country-container:hover{cursor:default}.iti--allow-dropdown input[disabled]+.iti__country-container:hover .i"
+                    },
+                    {
+                      "match": "container:hover ",
+                      "line": 1,
+                      "context": "ly]+.iti__country-container:hover{cursor:default}.iti--allow-dropdown input[disabled]+.iti__country-container:hover .iti__selected-country,.iti--allow-dropdown input[readonly]+.iti__country-container:"
+                    },
+                    {
+                      "match": "container:hover ",
+                      "line": 1,
+                      "context": "__country-container:hover .iti__selected-country,.iti--allow-dropdown input[readonly]+.iti__country-container:hover .iti__selected-country{background-color:transparent}}.iti--allow-dropdown .ui-phone-"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 3,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ckbox-field__input--v-disabled)~.ui-checkbox-field__value:not(.ui-checkbox-field__value--error):not(:has(a:hover)):hover:before{border-color:var(--accent-brand-color);border-width:2px}}.ui-checkbox-fi"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ckbox-field__input--v-disabled)~.ui-checkbox-field__value:not(.ui-checkbox-field__value--error):not(:has(a:hover)):hover:before{border-color:var(--stroke-secondary-color)}}.ui-checkbox-field--secondar"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ckbox-field__input--v-disabled)~.ui-checkbox-field__value:not(.ui-checkbox-field__value--error):not(:has(a:hover)):hover:before{border-color:var(--stroke-main-color)}}.ui-checkbox-field--additional .u"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/166e96a.css",
+              "total_lines": 1,
+              "total_chars": 38683,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 4,
+                  "instances": [
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "s-layout__bottom{margin-top:200px}}@media(min-width:1440px)and (max-width:0px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1360px}}@media(min-width"
+                    },
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "ontainer):not(.subscribe .ui-container){width:1360px}}@media(min-width:1440px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1360px}}@media(min-width"
+                    },
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "cribe .ui-container){width:1360px}}@media(min-width:1600px)and (max-width:0px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1456px}}@media(min-width"
+                    },
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "ontainer):not(.subscribe .ui-container){width:1456px}}@media(min-width:1600px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1456px}}.project-header "
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/8c43e8c.css",
+              "total_lines": 1,
+              "total_chars": 61369,
+              "features": {
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "stories__item-wrapper:hover{scale:1.05}}@media(min-width:1024px){.start-screen-stories__item-wrapper:has(.start-screen-stories__button:focus-visible){scale:1.05}}.start-screen-stories__picture{border-"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "media(min-width:1280px){.bootcamp__item--next+.bootcamp__item .bootcamp__card:before,.bootcamp__item:has(+.bootcamp__item--prev) .bootcamp__card:before{background-color:rgba(var(--bg-secondary-color-r"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/c917ca8.css",
+              "total_lines": 1,
+              "total_chars": 51487,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/9e661ca.css",
+              "total_lines": 1,
+              "total_chars": 6690,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/c917ca8.css",
+              "total_lines": 1,
+              "total_chars": 51487,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/9e661ca.css",
+              "total_lines": 1,
+              "total_chars": 6690,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/8c43e8c.css",
+              "total_lines": 1,
+              "total_chars": 61369,
+              "features": {
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "stories__item-wrapper:hover{scale:1.05}}@media(min-width:1024px){.start-screen-stories__item-wrapper:has(.start-screen-stories__button:focus-visible){scale:1.05}}.start-screen-stories__picture{border-"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "media(min-width:1280px){.bootcamp__item--next+.bootcamp__item .bootcamp__card:before,.bootcamp__item:has(+.bootcamp__item--prev) .bootcamp__card:before{background-color:rgba(var(--bg-secondary-color-r"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 13,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 7,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "GeekBrains": {
+          "name": "GeekBrains",
+          "url": "https://geekbrains.ru",
+          "inline_css": {
+            "source": "https://geekbrains.ru (inline)",
+            "total_lines": 123,
+            "total_chars": 1139211,
+            "features": {
+              "container_queries": {
+                "name": "CSS Container Queries",
+                "count": 2,
+                "instances": [
+                  {
+                    "match": "container:first",
+                    "line": 122,
+                    "context": "ng:0 calc(var(--plyr-control-spacing,10px)/2)}.plyr__controls .plyr__controls__item.plyr__progress__container:first-child,.plyr__controls .plyr__controls__item.plyr__time+.plyr__time,.plyr__controls ."
+                  },
+                  {
+                    "match": "container:after",
+                    "line": 122,
+                    "context": "dden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after{border:4px solid transparent;border-top-color:hsla(0,0%,100%,.9);border:var(--plyr-m"
+                  }
+                ],
+                "description": "Адаптивность на уровне компонентов"
+              },
+              "has_selector": {
+                "name": ":has() Selector",
+                "count": 2,
+                "instances": [
+                  {
+                    "match": ":has(",
+                    "line": 34,
+                    "context": "tion:relative}@keyframes blink-b7ccf5ae{0%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-b7ccf5ae]:befo"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 34,
+                    "context": "%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-b7ccf5ae]:before{animation:blink-b7ccf5ae 1s infinite;b"
+                  }
+                ],
+                "description": "Родительский селектор"
+              }
+            }
+          },
+          "external_css": [],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 2,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 2,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "HTML Academy": {
+          "name": "HTML Academy",
+          "url": "https://htmlacademy.ru",
+          "inline_css": {
+            "source": "https://htmlacademy.ru (inline)",
+            "total_lines": 279,
+            "total_chars": 5656,
+            "features": {
+              "has_selector": {
+                "name": ":has() Selector",
+                "count": 1,
+                "instances": [
+                  {
+                    "match": ":has(",
+                    "line": 107,
+                    "context": "atured-tutorials .tutorial-card {\n    margin-bottom: 30px;\n  }\n\n  .featured-tutorials .tutorial-card:has(.post-list__creator) {\n    margin-bottom: 40px;\n  }\n\n  .tutorial-card {\n    display: grid;\n    "
+                  }
+                ],
+                "description": "Родительский селектор"
+              }
+            }
+          },
+          "external_css": [
+            {
+              "source": "https://assets.htmlacademy.ru/css/core.v283.css",
+              "total_lines": 1,
+              "total_chars": 202274,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": "container:last",
+                      "line": 1,
+                      "context": "adding-right:25px;padding-left:25px;position:relative;padding-top:1px}.page-content__inner&gt;.text-container:last-child{padding-bottom:40px}.page-content__inner--width-constraint{max-width:1200px}.pa"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            },
+            {
+              "source": "https://assets.htmlacademy.ru/css/index-page.v101.css",
+              "total_lines": 1,
+              "total_chars": 42121,
+              "features": {}
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 1,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 1,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "Нетология": {
+          "name": "Нетология",
+          "url": "https://netology.ru",
+          "inline_css": {
+            "source": "https://netology.ru (inline)",
+            "total_lines": 5,
+            "total_chars": 206145,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/styles/SBSansDisplay.0.2.0.css",
+              "total_lines": 48,
+              "total_chars": 2370,
+              "features": {}
+            },
+            {
+              "source": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/styles/SBSansText.0.2.0.css",
+              "total_lines": 79,
+              "total_chars": 3729,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/41afd63309583807.css",
+              "total_lines": 1,
+              "total_chars": 101667,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/751be213a57f94c6.css",
+              "total_lines": 1,
+              "total_chars": 579,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/005bd1f1bf8b35ee.css",
+              "total_lines": 1,
+              "total_chars": 1394,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/971c3645e6804068.css",
+              "total_lines": 1,
+              "total_chars": 2778,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/dbe762dd13603dde.css",
+              "total_lines": 1,
+              "total_chars": 26299,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/960daf025fb47a32.css",
+              "total_lines": 1,
+              "total_chars": 15105,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/e46aeeb8702f2507.css",
+              "total_lines": 1,
+              "total_chars": 100076,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/4cfa5a5176c38780.css",
+              "total_lines": 1,
+              "total_chars": 8120,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/295e0097a103e9fe.css",
+              "total_lines": 1,
+              "total_chars": 32227,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/f608b8b894737e8b.css",
+              "total_lines": 1,
+              "total_chars": 511,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/1866218206ce708c.css",
+              "total_lines": 1,
+              "total_chars": 73856,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/86f9047004dcbe06.css",
+              "total_lines": 1,
+              "total_chars": 9428,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/8159c1df7744ab51.css",
+              "total_lines": 1,
+              "total_chars": 5629,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/465d35354b617cce.css",
+              "total_lines": 1,
+              "total_chars": 971,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/28b7a564da62482a.css",
+              "total_lines": 1,
+              "total_chars": 39960,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/512f1a1a24a72eed.css",
+              "total_lines": 1,
+              "total_chars": 7153,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/80c6dad50b2a8c8b.css",
+              "total_lines": 1,
+              "total_chars": 15079,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/81960814eb969c8d.css",
+              "total_lines": 1,
+              "total_chars": 1591,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/c19883b248eef2c5.css",
+              "total_lines": 1,
+              "total_chars": 5333,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/0e0d433eb1d07640.css",
+              "total_lines": 1,
+              "total_chars": 2826,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/562c96c81e762c9f.css",
+              "total_lines": 1,
+              "total_chars": 91589,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/14b7926d33ec3523.css",
+              "total_lines": 1,
+              "total_chars": 6946,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/27cc6a6e4bea2dda.css",
+              "total_lines": 1,
+              "total_chars": 38207,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/b04d119bfc8a21b3.css",
+              "total_lines": 1,
+              "total_chars": 9905,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/eb8c3709dba5d5b8.css",
+              "total_lines": 1,
+              "total_chars": 98302,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/572c786d20d04fa4.css",
+              "total_lines": 1,
+              "total_chars": 97323,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/4148199b3a27afe1.css",
+              "total_lines": 1,
+              "total_chars": 61528,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/927e7ac8439af538.css",
+              "total_lines": 1,
+              "total_chars": 94511,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/13cdeea3ec515a3c.css",
+              "total_lines": 1,
+              "total_chars": 42432,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/e855fb6f3bc44849.css",
+              "total_lines": 1,
+              "total_chars": 28545,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/a5f68968b0f2b7ad.css",
+              "total_lines": 1,
+              "total_chars": 93431,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/08acb3a0afd308cb.css",
+              "total_lines": 1,
+              "total_chars": 93844,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/bdfa9a7af31c14a1.css",
+              "total_lines": 1,
+              "total_chars": 99352,
+              "features": {
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 3,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "var(--plasma-slider-label-wrapper-margin-right)}.ss3ujqx.slider-label-placement-inner .l1p4kc08:not(:has(.lozb535)):has(.ly2gexi){margin-right:var(--plasma-slider-label-wrapper-only-icon-margin-right)"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ider-label-wrapper-margin-right)}.ss3ujqx.slider-label-placement-inner .l1p4kc08:not(:has(.lozb535)):has(.ly2gexi){margin-right:var(--plasma-slider-label-wrapper-only-icon-margin-right)}.ss3ujqx.slide"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "-plasma-slider-label-wrapper-only-icon-margin-right)}.ss3ujqx.slider-label-placement-inner .l1p4kc08:has(.lozb535){margin-right:var(--plasma-slider-label-wrapper-margin-right)}.ss3ujqx.slider-vertical"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/302c311f4322fecb.css",
+              "total_lines": 1,
+              "total_chars": 14751,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/7f572a6f78571a7f.css",
+              "total_lines": 1,
+              "total_chars": 96794,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/a52e4c1153333aac.css",
+              "total_lines": 1,
+              "total_chars": 95181,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/dd58491e9a63b3e5.css",
+              "total_lines": 1,
+              "total_chars": 19176,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 1,
+                  "instances": [
+                    {
+                      "match": "container:before",
+                      "line": 1,
+                      "context": "e}.bbf7gwp .rc-tree .rc-tree-treenode.dragging{opacity:.28}.bbf7gwp .rc-tree .rc-tree-treenode.drop-container:before,.bbf7gwp .rc-tree:not(:has(.drop-container)) .rc-tree-treenode.drop-target.drag-ove"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ragging{opacity:.28}.bbf7gwp .rc-tree .rc-tree-treenode.drop-container:before,.bbf7gwp .rc-tree:not(:has(.drop-container)) .rc-tree-treenode.drop-target.drag-over:before,.bbf7gwp .rc-tree:not(:has(.dr"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "ree:not(:has(.drop-container)) .rc-tree-treenode.drop-target.drag-over:before,.bbf7gwp .rc-tree:not(:has(.drop-container)) .rc-tree-treenode.drop-target.tree-leaf-node:before{box-shadow:inset 0 0 0 1p"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/2e08c2ed1aa9067b.css",
+              "total_lines": 1,
+              "total_chars": 10948,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/824c731af5c34f41.css",
+              "total_lines": 1,
+              "total_chars": 65645,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/5cc3389a08d20bbf.css",
+              "total_lines": 1,
+              "total_chars": 86535,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/c2fdbb503db54e76.css",
+              "total_lines": 1,
+              "total_chars": 8942,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/333befb5fe413d86.css",
+              "total_lines": 1,
+              "total_chars": 1702,
+              "features": {}
+            },
+            {
+              "source": "https://1238b6ae-6e84-45ec-9f24-340a7f591eed.selcdn.net/frontend/assets/main-oTTl2J5G.css",
+              "total_lines": 2,
+              "total_chars": 953,
+              "features": {}
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 1,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 5,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "Hexlet": {
+          "name": "Hexlet",
+          "url": "https://hexlet.io",
+          "inline_css": {
+            "source": "https://hexlet.io (inline)",
+            "total_lines": 161,
+            "total_chars": 42551,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://hexlet.io/vite/assets/application-BhDYOUva.css",
+              "total_lines": 2,
+              "total_chars": 681610,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 3,
+                  "instances": [
+                    {
+                      "match": "container:mantine",
+                      "line": 1,
+                      "context": "r(--mantine-font-size-sm)}.m_74ca27fe{margin-bottom:var(--mantine-spacing-sm);padding:0}.m_8478a6da{container:mantine-grid/inline-size}.m_410352e9{--grid-overflow:visible;--grid-margin:calc(var(--grid"
+                    },
+                    {
+                      "match": "container:simple",
+                      "line": 1,
+                      "context": "0f2:where([data-position=center]){padding-inline:calc(var(--scp-thickness) * 3);top:50%}.m_925c2d2c{container:simple-grid/inline-size}.m_2415a157{grid-template-columns:repeat(var(--sg-cols), minmax(0,"
+                    },
+                    {
+                      "match": "container:carousel/inline",
+                      "line": 1,
+                      "context": "relative}.m_a2dae653{height:var(--carousel-height);overflow:hidden}.m_a2dae653[data-type=container]{container:carousel/inline-size}.m_fcd81474{height:var(--carousel-height);flex-direction:row;display:"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 30,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "e-shadow-xl))}.m_fd1ab0aa [data-mantine-scrollbar]{z-index:1001}[data-offset-scrollbars] .m_fd1ab0aa:has([data-mantine-scrollbar]) .m_b5489c3c{padding-inline-end:calc(var(--mb-padding,var(--mantine-sp"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "e-end:var(--input-right-section-size)}.m_6c018570[data-size=xs] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(2.5625rem * var(--mantine-scale)"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "alc(2.5625rem * var(--mantine-scale))}.m_6c018570[data-size=sm] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.125rem * var(--mantine-scale))"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "calc(3.125rem * var(--mantine-scale))}.m_6c018570[data-size=md] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.75rem * var(--mantine-scale))}"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": ":calc(3.75rem * var(--mantine-scale))}.m_6c018570[data-size=lg] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(4.5rem * var(--mantine-scale))}."
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            },
+            {
+              "source": "https://hexlet.io/vite/assets/application-BhDYOUva.css",
+              "total_lines": 2,
+              "total_chars": 681610,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 3,
+                  "instances": [
+                    {
+                      "match": "container:mantine",
+                      "line": 1,
+                      "context": "r(--mantine-font-size-sm)}.m_74ca27fe{margin-bottom:var(--mantine-spacing-sm);padding:0}.m_8478a6da{container:mantine-grid/inline-size}.m_410352e9{--grid-overflow:visible;--grid-margin:calc(var(--grid"
+                    },
+                    {
+                      "match": "container:simple",
+                      "line": 1,
+                      "context": "0f2:where([data-position=center]){padding-inline:calc(var(--scp-thickness) * 3);top:50%}.m_925c2d2c{container:simple-grid/inline-size}.m_2415a157{grid-template-columns:repeat(var(--sg-cols), minmax(0,"
+                    },
+                    {
+                      "match": "container:carousel/inline",
+                      "line": 1,
+                      "context": "relative}.m_a2dae653{height:var(--carousel-height);overflow:hidden}.m_a2dae653[data-type=container]{container:carousel/inline-size}.m_fcd81474{height:var(--carousel-height);flex-direction:row;display:"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 30,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "e-shadow-xl))}.m_fd1ab0aa [data-mantine-scrollbar]{z-index:1001}[data-offset-scrollbars] .m_fd1ab0aa:has([data-mantine-scrollbar]) .m_b5489c3c{padding-inline-end:calc(var(--mb-padding,var(--mantine-sp"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "e-end:var(--input-right-section-size)}.m_6c018570[data-size=xs] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(2.5625rem * var(--mantine-scale)"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "alc(2.5625rem * var(--mantine-scale))}.m_6c018570[data-size=sm] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.125rem * var(--mantine-scale))"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": "calc(3.125rem * var(--mantine-scale))}.m_6c018570[data-size=md] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.75rem * var(--mantine-scale))}"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
+                      "context": ":calc(3.75rem * var(--mantine-scale))}.m_6c018570[data-size=lg] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(4.5rem * var(--mantine-scale))}."
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 6,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 60,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "Stepik": {
+          "name": "Stepik",
+          "url": "https://stepik.org",
+          "inline_css": {},
+          "external_css": [
+            {
+              "source": "https://cdn.stepik.net/static/frontend-build/fonts.css?1771251239",
+              "total_lines": 606,
+              "total_chars": 20290,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.stepik.net/static/frontend-build/vendor.css?1771251239",
+              "total_lines": 1,
+              "total_chars": 13854,
+              "features": {}
+            },
+            {
+              "source": "https://cdn.stepik.net/static/frontend-build/critical.css?1771251239",
+              "total_lines": 1,
+              "total_chars": 519941,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "s{margin-left:auto;display:flex;align-items:center}.comments-card__reply{border:none}.comment-card__container:not(:last-child){margin-bottom:2.142em}.comments-card__footer-button:not(.st-button_style_"
+                    },
+                    {
+                      "match": "container:not",
+                      "line": 1,
+                      "context": "-active{top:-30px}.comments-editor .comments-user-avatar{position:relative;top:41px}.comment-reply__container:not(:last-child){margin-bottom:12px}.comments-input{width:100%}.comments-input__editor{mar"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                }
+              }
+            },
+            {
+              "source": "https://cdn.stepik.net/static/frontend-build/stepic.css?1771251239",
+              "total_lines": 33,
+              "total_chars": 462677,
+              "features": {
+                "container_queries": {
+                  "name": "CSS Container Queries",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": "container:hover ",
+                      "line": 7,
+                      "context": "ion-show__content .copy-code-btn button{top:0;right:0}.code-editor:hover .copy-code-btn,.code-quiz__container:hover .copy-code-btn,.html-quiz__code-column:hover .copy-code-btn,pre:hover .copy-code-btn"
+                    },
+                    {
+                      "match": "container:not",
+                      "line": 7,
+                      "context": "cursor:not-allowed;filter:grayscale(100%)}.video-player__container{position:relative}.video-player__container:not(.video-player__container_jvs_loaded):after{content:\" \";display:block;position:absolute"
+                    }
+                  ],
+                  "description": "Адаптивность на уровне компонентов"
+                },
+                "has_selector": {
+                  "name": ":has() Selector",
+                  "count": 2,
+                  "instances": [
+                    {
+                      "match": ":has(",
+                      "line": 33,
+                      "context": "der&gt;h1{font-size:18px;font-weight:500;line-height:22px;letter-spacing:.17px}}.marco-layout.course:has(.dashboard){min-height:auto}.marco-layout.course:has(.dashboard) .marco-layout__nav{padding-bot"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 33,
+                      "context": "22px;letter-spacing:.17px}}.marco-layout.course:has(.dashboard){min-height:auto}.marco-layout.course:has(.dashboard) .marco-layout__nav{padding-bottom:0}.teachlearn&gt;header&gt;h1{margin:24px 0 20px;"
+                    }
+                  ],
+                  "description": "Родительский селектор"
+                }
+              }
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 4,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 2,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        },
+        "Coursera": {
+          "name": "Coursera",
+          "url": "https://coursera.org",
+          "inline_css": {
+            "source": "https://coursera.org (inline)",
+            "total_lines": 1607,
+            "total_chars": 293145,
+            "features": {
+              "container_queries": {
+                "name": "CSS Container Queries",
+                "count": 11,
+                "instances": [
+                  {
+                    "match": "@container ",
+                    "line": 1567,
+                    "context": ".01) translate3d(1px, -2px, 16px);transform:scale3d(1.01, 1.01, 1.01) translate3d(1px, -2px, 16px);}@container hero-bento-card (width < 550px){.css-150mpqx{-ms-grid-columns:none;grid-template-columns:"
+                  },
+                  {
+                    "match": "@container ",
+                    "line": 1567,
+                    "context": "ntent:center;justify-content:center;padding-left:var(--cds-spacing-200);gap:var(--cds-spacing-100);}@container hero-bento-card (width < 550px){.css-l88zs4{-webkit-flex:unset;-ms-flex:unset;flex:unset;"
+                  },
+                  {
+                    "match": "@container ",
+                    "line": 1567,
+                    "context": "{text-align:justify;}.css-4fk9z4 strong{font-weight:var(--cds-font-weight-700);font-family:inherit;}@container hero-bento-card (width < 550px){.css-4fk9z4{font:var(--cds-typography-title-x-small-sm);l"
+                  },
+                  {
+                    "match": "@container ",
+                    "line": 1567,
+                    "context": "text-align:justify;}.css-1rcwhif strong{font-weight:var(--cds-font-weight-700);font-family:inherit;}@container hero-bento-card (width < 550px){.css-1rcwhif{display:none;}}.css-1s18ihl{border-radius:va"
+                  },
+                  {
+                    "match": "@container ",
+                    "line": 1567,
+                    "context": ":end;justify-content:end;}.css-tt9t7i img{max-height:306px!important;width:100%;object-fit:contain;}@container hero-bento-card (width < 550px){.css-tt9t7i{min-height:138px;}.css-tt9t7i img{max-height:"
+                  }
+                ],
+                "description": "Адаптивность на уровне компонентов"
+              },
+              "has_selector": {
+                "name": ":has() Selector",
+                "count": 2,
+                "instances": [
+                  {
+                    "match": ":has(",
+                    "line": 1483,
+                    "context": "r(--cds-letter-spacing-minus30);}@media (max-width: 1023px){.css-1w1ht4b .cds-multiSelectGroup-label:has(+ div[role='group'][aria-label*='Recently viewed'].cds-multiSelectGroup-list),.css-1w1ht4b .cds"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 1483,
+                    "context": "][aria-label*='Recently viewed'].cds-multiSelectGroup-list),.css-1w1ht4b .cds-multiSelectGroup-label:has(+ div[role='group'][aria-label*='learner favorites'].cds-multiSelectGroup-list){margin-bottom:0"
+                  }
+                ],
+                "description": "Родительский селектор"
+              }
+            }
+          },
+          "external_css": [
+            {
+              "source": "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/front-page/allStyles.1b1712f78263b65ba990.css",
+              "total_lines": 1,
+              "total_chars": 45151,
+              "features": {}
+            }
+          ],
+          "features_summary": {
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 11,
+              "description": "Адаптивность на уровне компонентов"
+            },
+            "has_selector": {
+              "name": ":has() Selector",
+              "total_occurrences": 2,
+              "description": "Родительский селектор"
+            }
+          },
+          "total_features_found": 2
+        }
+      }
+    }
+  }
+}

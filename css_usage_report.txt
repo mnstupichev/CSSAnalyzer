@@ -1,0 +1,154 @@
+================================================================================
+ИТОГОВЫЙ ОТЧЕТ: ИСПОЛЬЗОВАНИЕ СОВРЕМЕННЫХ CSS
+================================================================================
+Всего сайтов проанализировано: 16
+
+ОБЩАЯ СТАТИСТИКА ПО CSS-ВОЗМОЖНОСТЯМ
+--------------------------------------------------------------------------------
+
+CSS Container Queries
+   Описание: Адаптивность на уровне компонентов
+   Использование: 10/16 сайтов (62.5%)
+   Сайты: СПбГУ, МФТИ, МИСиС, Skillbox, GeekBrains
+
+CSS Grid Subgrid
+   Описание: Вложенные grid-сетки
+   Использование: 0/16 сайтов (0.0%)
+
+CSS Nesting (native)
+   Описание: Нативная вложенность селекторов
+   Использование: 1/16 сайтов (6.2%)
+   Сайты: Яндекс Практикум
+
+CSS Cascade Layers
+   Описание: Управление каскадом через слои
+   Использование: 0/16 сайтов (0.0%)
+
+:has() Selector
+   Описание: Родительский селектор
+   Использование: 9/16 сайтов (56.2%)
+   Сайты: МИСиС, Яндекс Практикум, Skillbox, GeekBrains, HTML Academy
+
+Modern Color Functions
+   Описание: Современные цветовые функции
+   Использование: 0/16 сайтов (0.0%)
+
+
+================================================================================
+ДЕТАЛЬНЫЙ ОТЧЕТ ПО КАТЕГОРИЯМ
+================================================================================
+
+################################################################################
+# UNIVERSITIES
+################################################################################
+
+МГУ
+   URL: https://www.msu.ru
+   Ошибка: Unexpected error in _crawl_web at line 718 in _crawl_web (..\.venv\Lib\site-packages\crawl4ai\async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: net::ERR_CONNECTION_CLOSED at https://www.msu.ru/
+Call log:
+  - navigating to "https://www.msu.ru/", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # ──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only the last
+ 722                       # hop, so we trace the `request.redirected_from` links until the
+ 723                       # first response that differs from the final one and surface its
+
+СПбГУ
+   URL: https://spbu.ru
+   Найдено современных возможностей: 1
+      CSS Container Queries: 2 упоминаний
+
+МФТИ
+   URL: https://mipt.ru
+   Найдено современных возможностей: 1
+      CSS Container Queries: 2 упоминаний
+
+ВШЭ
+   URL: https://www.hse.ru
+   Найдено современных возможностей: 0
+      Современные CSS-возможности не обнаружены
+
+ИТМО
+   URL: https://itmo.ru
+   Найдено современных возможностей: 0
+      Современные CSS-возможности не обнаружены
+
+МИСиС
+   URL: https://misis.ru
+   Найдено современных возможностей: 2
+      CSS Container Queries: 8 упоминаний
+      :has() Selector: 27 упоминаний
+
+МИФИ
+   URL: https://mephi.ru
+   Найдено современных возможностей: 0
+      Современные CSS-возможности не обнаружены
+
+Бауманка
+   URL: https://bmstu.ru
+   Найдено современных возможностей: 0
+      Современные CSS-возможности не обнаружены
+
+
+################################################################################
+# WEB_COURSES
+################################################################################
+
+Яндекс Практикум
+   URL: https://practicum.yandex.ru
+   Найдено современных возможностей: 2
+      CSS Nesting (native): 4 упоминаний
+      :has() Selector: 8 упоминаний
+
+Skillbox
+   URL: https://skillbox.ru
+   Найдено современных возможностей: 2
+      CSS Container Queries: 13 упоминаний
+      :has() Selector: 7 упоминаний
+
+GeekBrains
+   URL: https://geekbrains.ru
+   Найдено современных возможностей: 2
+      CSS Container Queries: 2 упоминаний
+      :has() Selector: 2 упоминаний
+
+HTML Academy
+   URL: https://htmlacademy.ru
+   Найдено современных возможностей: 2
+      CSS Container Queries: 1 упоминаний
+      :has() Selector: 1 упоминаний
+
+Нетология
+   URL: https://netology.ru
+   Найдено современных возможностей: 2
+      CSS Container Queries: 1 упоминаний
+      :has() Selector: 5 упоминаний
+
+Hexlet
+   URL: https://hexlet.io
+   Найдено современных возможностей: 2
+      CSS Container Queries: 6 упоминаний
+      :has() Selector: 60 упоминаний
+
+Stepik
+   URL: https://stepik.org
+   Найдено современных возможностей: 2
+      CSS Container Queries: 4 упоминаний
+      :has() Selector: 2 упоминаний
+
+Coursera
+   URL: https://coursera.org
+   Найдено современных возможностей: 2
+      CSS Container Queries: 11 упоминаний
+      :has() Selector: 2 упоминаний
