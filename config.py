@@ -1,4 +1,6 @@
-BASE_PATH = "C:/Users/1/PycharmProjects/AnalyzingCSS/"
+from pathlib import Path
+
+BASE_PATH = Path(__file__).parent
 OUTPUT_JSON = f"{BASE_PATH}css_usage_analysis.json"
 OUTPUT_TXT = f"{BASE_PATH}css_usage_report.txt"
 VISUALIZATIONS_DIR = f"{BASE_PATH}css_visualizations"
