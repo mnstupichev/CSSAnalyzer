@@ -1,6 +1,4 @@
-from pathlib import Path
-
-BASE_PATH = Path(__file__).parent
+BASE_PATH = "C://Users/1/PycharmProjects/AnalyzingCSS/"
 OUTPUT_JSON = f"{BASE_PATH}css_usage_analysis.json"
 OUTPUT_TXT = f"{BASE_PATH}css_usage_report.txt"
 VISUALIZATIONS_DIR = f"{BASE_PATH}css_visualizations"
@@ -33,9 +31,9 @@ CSS_FEATURES = {
         "name": "CSS Container Queries",
         "patterns": [
             r'@container\s+',
-            r'container-type:\s*\w+',
+            r'container-type:\s*\s+',
             r'container-name:\s*[\w-]+',
-            r'container:\s*[\w\s/]+',
+            r'container:\s*[\w-]+\s*/\s*(inline-size|block-size|size)',
         ],
         "description": "Адаптивность на уровне компонентов",
     },

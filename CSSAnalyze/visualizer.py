@@ -47,7 +47,9 @@ class CSSVisualizationGenerator:
     
     def create_pie_chart(self):
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 7))
-        
+
+        ax1.set_title('Процент использования CSS технологий', fontsize=13, weight='bold', pad=20)
+
         if self.feature_stats:
             features = list(self.feature_stats.keys())
             counts = [self.feature_stats[f] for f in features]
@@ -65,12 +67,8 @@ class CSSVisualizationGenerator:
                 textprops={'fontsize': 10, 'weight': 'bold'}
             )
 
-            ax1.set_title('Процент сайтов, использующих современные CSS-технологии\n' + 
-                         f'(из {self.total_sites} проанализированных)',
-                         fontsize=13, weight='bold', pad=20)
         else:
             ax1.text(0.5, 0.5, 'Нет данных', ha='center', va='center', fontsize=14)
-            ax1.set_title('Использование CSS-технологий', fontsize=13, weight='bold')
         
         sites_with_features = len([s for s in self.site_features.values() if s])
         sites_without = self.total_sites - sites_with_features
@@ -84,8 +82,7 @@ class CSSVisualizationGenerator:
                 startangle=90,
                 textprops={'fontsize': 11, 'weight': 'bold'}
             )
-            ax2.set_title(f'Внедрение современных CSS-возможностей\n' +
-                         f'({sites_with_features} из {self.total_sites} сайтов)',
+            ax2.set_title(f'Внедрение современных CSS возможностей',
                          fontsize=13, weight='bold', pad=20)
         
         plt.tight_layout()
@@ -136,7 +133,7 @@ class CSSVisualizationGenerator:
         
         ax.set_xlabel('Категории', fontsize=12, weight='bold')
         ax.set_ylabel('Количество сайтов', fontsize=12, weight='bold')
-        ax.set_title('Использование CSS-технологий по категориям',
+        ax.set_title('Использование CSS технологий по категориям',
                     fontsize=14, weight='bold', pad=20)
         ax.set_xticks(x)
         ax.set_xticklabels([c.replace('_', ' ').title() for c in categories])
@@ -183,9 +180,9 @@ class CSSVisualizationGenerator:
                 weight='bold'
             )
         
-        ax.set_xlabel('Количество используемых современных CSS-технологий',
+        ax.set_xlabel('Количество используемых современных CSS технологий',
                      fontsize=11, weight='bold')
-        ax.set_title('Топ сайтов по использованию современных CSS-возможностей',
+        ax.set_title('Топ сайтов по использованию современных CSS возможностей',
                     fontsize=14, weight='bold', pad=20)
         ax.grid(axis='x', alpha=0.3)
         

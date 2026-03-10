@@ -7,11 +7,238 @@
         "МГУ": {
           "name": "МГУ",
           "url": "https://www.msu.ru",
-          "inline_css": {},
-          "external_css": [],
+          "inline_css": {
+            "source": "https://www.msu.ru (inline)",
+            "total_lines": 2,
+            "total_chars": 1,
+            "features": {}
+          },
+          "external_css": [
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/0.22576152.css",
+              "total_lines": 2,
+              "total_chars": 41433,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Row.30106fb6.css",
+              "total_lines": 2,
+              "total_chars": 302,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Col.74b0737d.css",
+              "total_lines": 2,
+              "total_chars": 8138,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/DropdownBlock.a33678f6.css",
+              "total_lines": 2,
+              "total_chars": 2479,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Svg.89943bcb.css",
+              "total_lines": 2,
+              "total_chars": 330,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Button.144eb78c.css",
+              "total_lines": 2,
+              "total_chars": 2578,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Box.dfb7a635.css",
+              "total_lines": 2,
+              "total_chars": 2110,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/AccordionBlock.b4d4083b.css",
+              "total_lines": 2,
+              "total_chars": 7469,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/ButtonGroup.22006c2b.css",
+              "total_lines": 2,
+              "total_chars": 710,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/SocialBlock.215751ec.css",
+              "total_lines": 2,
+              "total_chars": 471,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Input.84589deb.css",
+              "total_lines": 2,
+              "total_chars": 897,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Section.8f9f9e69.css",
+              "total_lines": 2,
+              "total_chars": 721,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/NProgress.771398e6.css",
+              "total_lines": 2,
+              "total_chars": 1244,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/2.c390f5ad.css",
+              "total_lines": 2,
+              "total_chars": 5210,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/ThreeColumnSection.a29f9eb9.css",
+              "total_lines": 2,
+              "total_chars": 888,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/StatsBlock.c83e5da1.css",
+              "total_lines": 2,
+              "total_chars": 4522,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Image.84dbfe49.css",
+              "total_lines": 2,
+              "total_chars": 1020,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Loader.f34b506d.css",
+              "total_lines": 2,
+              "total_chars": 691,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/ButtonsBlock.70725b06.css",
+              "total_lines": 2,
+              "total_chars": 351,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/prompts.af128945.css",
+              "total_lines": 2,
+              "total_chars": 1037,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/TextBanner.13aa4c30.css",
+              "total_lines": 2,
+              "total_chars": 780,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/TilesSection.f968f316.css",
+              "total_lines": 2,
+              "total_chars": 1879,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/PreviewSection.6906feed.css",
+              "total_lines": 2,
+              "total_chars": 362,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/GridSlider.fd2d84d5.css",
+              "total_lines": 2,
+              "total_chars": 2379,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Slider.7c1b8add.css",
+              "total_lines": 2,
+              "total_chars": 1268,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/swiper.1df8f2af.css",
+              "total_lines": 2,
+              "total_chars": 5657,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/ScienceSliderElement.e92b4cd6.css",
+              "total_lines": 2,
+              "total_chars": 1007,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/NewsSection.9ed5ae10.css",
+              "total_lines": 2,
+              "total_chars": 561,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/Select.a367a09c.css",
+              "total_lines": 2,
+              "total_chars": 9716,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/DivisionStructSection.990fe471.css",
+              "total_lines": 2,
+              "total_chars": 1260,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/FilterBlock.14864a10.css",
+              "total_lines": 2,
+              "total_chars": 426,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/ViewBlock.e7baf294.css",
+              "total_lines": 2,
+              "total_chars": 618,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/NavigationSlider.3caea167.css",
+              "total_lines": 2,
+              "total_chars": 809,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/DivisionGridElement.94b68c76.css",
+              "total_lines": 2,
+              "total_chars": 1255,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/EventBlock.20f631db.css",
+              "total_lines": 2,
+              "total_chars": 970,
+              "features": {}
+            },
+            {
+              "source": "https://www.msu.ru/_app/immutable/assets/EventElement.3b353e9a.css",
+              "total_lines": 2,
+              "total_chars": 1232,
+              "features": {}
+            },
+            {
+              "source": "https://msu.ru/_app/immutable/assets/1.a2b6a4b2.css",
+              "total_lines": 2,
+              "total_chars": 723,
+              "features": {}
+            }
+          ],
           "features_summary": {},
-          "total_features_found": 0,
-          "error": "Unexpected error in _crawl_web at line 718 in _crawl_web (..\\.venv\\Lib\\site-packages\\crawl4ai\\async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.msu.ru/\nCall log:\n  - navigating to \"https://www.msu.ru/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 713                                   tag=\"GOTO\",\n 714                                   params={\"url\": url},\n 715                               )\n 716                               response = None\n 717                           else:\n 718 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 719   \n 720                       # ──────────────────────────────────────────────────────────────\n 721                       # Walk the redirect chain.  Playwright returns only the last\n 722                       # hop, so we trace the `request.redirected_from` links until the\n 723                       # first response that differs from the final one and surface its"
+          "total_features_found": 0
         },
         "СПбГУ": {
           "name": "СПбГУ",
@@ -46,35 +273,11 @@
               "source": "https://spbu.ru/sites/default/files/css/css_ZIvt70Zm3z3fRx-i3Uam4O_hNgH1_swz2E0jxHe8yxo.css",
               "total_lines": 5,
               "total_chars": 209901,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 2,
-                  "instances": [
-                    {
-                      "match": "container:after",
-                      "line": 1,
-                      "context": "dding-top:50px;}}.g-container{margin-right:0;margin-left:0;padding-right:15px;padding-left:15px;}.g-container:after{display:table;clear:both;content:' ';}@media (min-width:768px){.g-container{margin-r"
-                    },
-                    {
-                      "match": "container:focus",
-                      "line": 1,
-                      "context": ":auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.chosen-container:focus{outline:none;}.chosen-single{position:relative;display:block;padding-right:40px;font"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "features": {}
             }
           ],
-          "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 2,
-              "description": "Адаптивность на уровне компонентов"
-            }
-          },
-          "total_features_found": 1
+          "features_summary": {},
+          "total_features_found": 0
         },
         "МФТИ": {
           "name": "МФТИ",
@@ -82,7 +285,7 @@
           "inline_css": {
             "source": "https://mipt.ru (inline)",
             "total_lines": 19,
-            "total_chars": 34143,
+            "total_chars": 34067,
             "features": {}
           },
           "external_css": [
@@ -90,57 +293,25 @@
               "source": "https://mipt.ru/f/dist/styles.9403d43d9c6d52a1.css",
               "total_lines": 12,
               "total_chars": 83683,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 1,
-                  "instances": [
-                    {
-                      "match": "container:empty",
-                      "line": 1,
-                      "context": "top:0;left:0;height:100%;width:100%}.cdk-overlay-container{position:fixed;z-index:1000}.cdk-overlay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute;z-index:1000"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "features": {}
             },
             {
               "source": "https://mipt.ru/f/dist/styles.9403d43d9c6d52a1.css",
               "total_lines": 12,
               "total_chars": 83683,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 1,
-                  "instances": [
-                    {
-                      "match": "container:empty",
-                      "line": 1,
-                      "context": "top:0;left:0;height:100%;width:100%}.cdk-overlay-container{position:fixed;z-index:1000}.cdk-overlay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute;z-index:1000"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "features": {}
             }
           ],
-          "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 2,
-              "description": "Адаптивность на уровне компонентов"
-            }
-          },
-          "total_features_found": 1
+          "features_summary": {},
+          "total_features_found": 0
         },
         "ВШЭ": {
           "name": "ВШЭ",
           "url": "https://www.hse.ru",
           "inline_css": {
             "source": "https://www.hse.ru (inline)",
-            "total_lines": 148,
-            "total_chars": 6680,
+            "total_lines": 131,
+            "total_chars": 3553,
             "features": {}
           },
           "external_css": [
@@ -223,50 +394,18 @@
           "inline_css": {
             "source": "https://misis.ru (inline)",
             "total_lines": 15,
-            "total_chars": 709,
+            "total_chars": 706,
             "features": {}
           },
           "external_css": [
             {
-              "source": "https://misis.ru/rev-17/f/assets/misis.bundle.css",
+              "source": "https://misis.ru/rev-30/f/assets/misis.bundle.css",
               "total_lines": 1,
-              "total_chars": 442693,
+              "total_chars": 445267,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 5,
-                  "instances": [
-                    {
-                      "match": "container:after",
-                      "line": 1,
-                      "context": "gin-bottom:28px}.container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-w"
-                    },
-                    {
-                      "match": "container:before",
-                      "line": 1,
-                      "context": "container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-width:480px){.cont"
-                    },
-                    {
-                      "match": "container:after",
-                      "line": 1,
-                      "context": ";padding-left:15px;padding-right:15px}.container:after,.container:before{content:\" \";display:table}.container:after{clear:both}@media(min-width:480px){.container{width:750px}}@media(min-width:992px){."
-                    },
-                    {
-                      "match": "Container:hover ",
-                      "line": 1,
-                      "context": "expanded .mCSB_dragger_bar,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{height:12px;margin:2px auto}.mCSB_scrollTools_horizo"
-                    },
-                    {
-                      "match": "Container:hover ",
-                      "line": 1,
-                      "context": "expanded+.mCSB_draggerRail,.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{height:8px;margin:4px 0}.mCSB_scrollTools,.mCSB_scrollTools .mCSB_"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
-                  "count": 20,
+                  "count": 21,
                   "instances": [
                     {
                       "match": ":has(",
@@ -281,17 +420,17 @@
                     {
                       "match": ":has(",
                       "line": 1,
+                      "context": "2.8rem 3.2rem}}.col4_grey_text__inner :last-child{margin-bottom:0}.col4_grey_text__inner :last-child:has([class^=pretty-button]){padding-bottom:.8rem}blockquote.main-blockquote{border-radius:1.6rem;cl"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 1,
                       "context": "coration-color:rgba(0,0,0,.3)!important;text-decoration-color:rgba(0,0,0,.3)!important}}.breadcrumbs:has(li:first-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}."
                     },
                     {
                       "match": ":has(",
                       "line": 1,
                       "context": "ation-color:rgba(0,0,0,.3)!important}}.breadcrumbs:has(li:first-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}.breadcrumbs:has(li:nth-child(2):last-child) .link,"
-                    },
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": "st-child:last-child) .link,.breadcrumbs:has(li:first-child:last-child) a{max-width:95vw}.breadcrumbs:has(li:nth-child(2):last-child) .link,.breadcrumbs:has(li:nth-child(2):last-child) a{max-width:40vw"
                     }
                   ],
                   "description": "Родительский селектор"
@@ -299,27 +438,10 @@
               }
             },
             {
-              "source": "https://crm.misis.ru/bitrix/js/crm/site/form/dist/app.bundle.min.css?20501",
-              "total_lines": 10,
-              "total_chars": 73792,
+              "source": "https://crm.misis.ru/bitrix/js/crm/site/form/dist/app.bundle.min.css?20522",
+              "total_lines": 1,
+              "total_chars": 74850,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 2,
-                  "instances": [
-                    {
-                      "match": "container:after",
-                      "line": 6,
-                      "context": "te(-50%,-50%);transform:rotate(45deg) translate(-50%,-50%)}.b24-form-control-list .b24-form-control-container:after{content:\"\";position:absolute;height:7px;width:7px;border-right:2px solid #000;border"
-                    },
-                    {
-                      "match": "container:after",
-                      "line": 6,
-                      "context": "form:translateX(-50%) translateY(-50%) rotate(45deg)}.b24-form-control-list:hover .b24-form-control-container:after{opacity:1}.b24-form-control-list-selector-item{width:100%;border-bottom:1px solid rg"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
                   "count": 1,
@@ -335,13 +457,13 @@
               }
             },
             {
-              "source": "https://misis.ru/rev-17/f/assets/misis-2.bundle.css",
+              "source": "https://misis.ru/rev-30/f/assets/misis-2.bundle.css",
               "total_lines": 6,
-              "total_chars": 237455,
+              "total_chars": 242300,
               "features": {
                 "has_selector": {
                   "name": ":has() Selector",
-                  "count": 2,
+                  "count": 3,
                   "instances": [
                     {
                       "match": ":has(",
@@ -352,6 +474,11 @@
                       "match": ":has(",
                       "line": 1,
                       "context": "important}.filters-form:not(.filters-form--not-hide) .opened.dropdown--long:not(.dropdown--not-hide):has(input:checked){bottom:8rem}.filters-form:not(.filters-form--not-hide) .opened.dropdown--long:no"
+                    },
+                    {
+                      "match": ":has(",
+                      "line": 6,
+                      "context": "249,249,255,.4);color:#000}.plates__item-content :last-child{margin-bottom:0}.plates__item-content p:has([class^=pretty-button]){margin-top:2.4rem}.plates__item-content h2{color:#fff;font-size:2.8rem;"
                     }
                   ],
                   "description": "Родительский селектор"
@@ -359,22 +486,10 @@
               }
             },
             {
-              "source": "https://misis.ru/rev-17/f/assets/contrast.bundle.css",
+              "source": "https://misis.ru/rev-30/f/assets/contrast.bundle.css",
               "total_lines": 1,
-              "total_chars": 131467,
+              "total_chars": 131613,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 1,
-                  "instances": [
-                    {
-                      "match": "container:after",
-                      "line": 1,
-                      "context": "d-color:#fff;color:#000;opacity:.7}.color-scheme-inversion .b24-form-control-list .b24-form-control-container:after{border-bottom-color:#fff;border-right-color:#fff}.color-scheme-inversion .outstandin"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
                   "count": 4,
@@ -405,25 +520,20 @@
               }
             },
             {
-              "source": "https://misis.ru/rev-17/f/assets/home.bundle.css",
+              "source": "https://misis.ru/rev-30/f/assets/home.bundle.css",
               "total_lines": 1,
-              "total_chars": 863,
+              "total_chars": 1005,
               "features": {}
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 8,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
-              "total_occurrences": 27,
+              "total_occurrences": 29,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "МИФИ": {
           "name": "МИФИ",
@@ -436,13 +546,13 @@
           },
           "external_css": [
             {
-              "source": "https://mephi.ru/sites/all/themes/modern/style-ie8.css?t8sw6m",
+              "source": "https://mephi.ru/sites/all/themes/modern/style-ie8.css?tbf752",
               "total_lines": 1,
               "total_chars": 185,
               "features": {}
             },
             {
-              "source": "https://mephi.ru/sites/all/themes/modern/style-ie67.css?t8sw6m",
+              "source": "https://mephi.ru/sites/all/themes/modern/style-ie67.css?tbf752",
               "total_lines": 1,
               "total_chars": 185,
               "features": {}
@@ -457,21 +567,21 @@
           "inline_css": {},
           "external_css": [
             {
-              "source": "https://bmstu.ru/_next/static/css/8a670f65199b8cf27b6ced5c5ad0c6d6993a6e61_CSS.97d38ef1.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/17329fed7884e2e774fac591b55d27f5b48e2d29_CSS.21d78e48.chunk.css",
               "total_lines": 1265,
               "total_chars": 26885,
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/650635afccf8f67fb905f7f218d3c56e8cc241a9_CSS.a43c68d2.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/650635afccf8f67fb905f7f218d3c56e8cc241a9_CSS.064d0b69.chunk.css",
               "total_lines": 1808,
               "total_chars": 41340,
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/styles.aac062b7.chunk.css",
-              "total_lines": 28971,
-              "total_chars": 540391,
+              "source": "https://bmstu.ru/_next/static/css/styles.ee2e5a0e.chunk.css",
+              "total_lines": 30546,
+              "total_chars": 570223,
               "features": {}
             },
             {
@@ -481,19 +591,19 @@
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/4711b69a828f53cd4ac57def32bc9ea4a7ecf72a_CSS.8c9d20c4.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/4711b69a828f53cd4ac57def32bc9ea4a7ecf72a_CSS.b8ab0157.chunk.css",
               "total_lines": 1415,
               "total_chars": 26246,
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/ff207b801842daf737216b4670362a03e77a8f68_CSS.4f050d3f.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/ff207b801842daf737216b4670362a03e77a8f68_CSS.2a98490c.chunk.css",
               "total_lines": 548,
               "total_chars": 25260,
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/32c55bfaca8a75c71008516e9ef9331e0861a329_CSS.d5668a83.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/32c55bfaca8a75c71008516e9ef9331e0861a329_CSS.3bf70112.chunk.css",
               "total_lines": 1830,
               "total_chars": 33908,
               "features": {}
@@ -505,7 +615,7 @@
               "features": {}
             },
             {
-              "source": "https://bmstu.ru/_next/static/css/pages/home.ab59a608.chunk.css",
+              "source": "https://bmstu.ru/_next/static/css/pages/home.2d650de4.chunk.css",
               "total_lines": 126,
               "total_chars": 2221,
               "features": {}
@@ -524,8 +634,8 @@
           "url": "https://practicum.yandex.ru",
           "inline_css": {
             "source": "https://practicum.yandex.ru (inline)",
-            "total_lines": 4241,
-            "total_chars": 143183,
+            "total_lines": 4278,
+            "total_chars": 143783,
             "features": {
               "css_nesting": {
                 "name": "CSS Nesting (native)",
@@ -533,22 +643,22 @@
                 "instances": [
                   {
                     "match": "&:hover",
-                    "line": 1331,
+                    "line": 1368,
                     "context": "tify-content: center;\n        cursor: pointer;\n        transition: background-color 300ms;\n\n        &:hover{\n             background-color:#2B2B2B;\n        }\n    }\n\n    .swiper {\n        overflow: vis"
                   },
                   {
                     "match": "&:hover",
-                    "line": 1674,
+                    "line": 1711,
                     "context": "transition: background 200ms;\n        display: block;\n        box-sizing: border-box;\n\n        &:hover {\n            background: #E0E0E0;\n        }\n\n        svg {\n            display: block;\n        }"
                   },
                   {
                     "match": "&:hover",
-                    "line": 1874,
+                    "line": 1911,
                     "context": "inks__item a {\n            /* color: #1E1E1E; */\n            text-decoration: none;\n\n            /* &:hover {\n            color: var(--link-hover-color) !important;\n        } */\n        }\n    }\n\n    ."
                   },
                   {
                     "match": "&>div",
-                    "line": 904,
+                    "line": 941,
                     "context": "height: 100%;\n    }\n\n    [id^=\"direction-features__item__descr\"] {\n        opacity: 0;\n\n        &>div>div>div {\n            width: 70%;\n        }\n    }\n\n    #direction-features__item__descr4>div>div>d"
                   }
                 ],
@@ -570,17 +680,17 @@
                   },
                   {
                     "match": ":has(",
-                    "line": 193,
+                    "line": 206,
                     "context": "der: 1px white solid;\n        border-radius: 6px;\n        box-sizing: border-box;\n    }\n\n    .navbar:has(.dropdown:hover) {\n        background-color: rgba(255, 255, 255, 0.75);\n    }\n\n    @media (max-"
                   },
                   {
                     "match": ":has(",
-                    "line": 886,
+                    "line": 923,
                     "context": "c-multi-background__background {\n        background: #3C3C3C !important;\n    }\n\n    .lc-link-wrapper:has([id^=\"direction-features__item\"]):hover .lc-multi-background__backgrounds-container>.lc-image-b"
                   },
                   {
                     "match": ":has(",
-                    "line": 891,
+                    "line": 928,
                     "context": "age-background__mask-image-wrapper {\n        display: none;\n    }\n\n    /*  \n    .lc-multi-background:has(#direction-features__item4:hover) .lc-multi-background .lc-multi-background__backgrounds-contai"
                   }
                 ],
@@ -597,15 +707,15 @@
             }
           ],
           "features_summary": {
-            "css_nesting": {
-              "name": "CSS Nesting (native)",
-              "total_occurrences": 4,
-              "description": "Нативная вложенность селекторов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 8,
               "description": "Родительский селектор"
+            },
+            "css_nesting": {
+              "name": "CSS Nesting (native)",
+              "total_occurrences": 4,
+              "description": "Нативная вложенность селекторов"
             }
           },
           "total_features_found": 2
@@ -621,42 +731,10 @@
           },
           "external_css": [
             {
-              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/2a0b051.css",
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/bc02101.css",
               "total_lines": 1,
-              "total_chars": 311474,
+              "total_chars": 310363,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 9,
-                  "instances": [
-                    {
-                      "match": "container:hover",
-                      "line": 1,
-                      "context": "-width:568px;min-width:260px;padding:4px;position:absolute;z-index:3}@media(min-width:1024px){.iti--container:hover{cursor:pointer}}.iti--container.iti--ui-modal{position:absolute;z-index:7}.iti *{box"
-                    },
-                    {
-                      "match": "container:hover",
-                      "line": 1,
-                      "context": "al-code{margin-left:6px}@media(min-width:1024px){.iti--allow-dropdown input[disabled]+.iti__country-container:hover,.iti--allow-dropdown input[readonly]+.iti__country-container:hover{cursor:default}.i"
-                    },
-                    {
-                      "match": "container:hover",
-                      "line": 1,
-                      "context": "wn input[disabled]+.iti__country-container:hover,.iti--allow-dropdown input[readonly]+.iti__country-container:hover{cursor:default}.iti--allow-dropdown input[disabled]+.iti__country-container:hover .i"
-                    },
-                    {
-                      "match": "container:hover ",
-                      "line": 1,
-                      "context": "ly]+.iti__country-container:hover{cursor:default}.iti--allow-dropdown input[disabled]+.iti__country-container:hover .iti__selected-country,.iti--allow-dropdown input[readonly]+.iti__country-container:"
-                    },
-                    {
-                      "match": "container:hover ",
-                      "line": 1,
-                      "context": "__country-container:hover .iti__selected-country,.iti--allow-dropdown input[readonly]+.iti__country-container:hover .iti__selected-country{background-color:transparent}}.iti--allow-dropdown .ui-phone-"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
                   "count": 3,
@@ -682,43 +760,15 @@
               }
             },
             {
-              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/166e96a.css",
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/ab630aa.css",
               "total_lines": 1,
-              "total_chars": 38683,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 4,
-                  "instances": [
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "s-layout__bottom{margin-top:200px}}@media(min-width:1440px)and (max-width:0px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1360px}}@media(min-width"
-                    },
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "ontainer):not(.subscribe .ui-container){width:1360px}}@media(min-width:1440px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1360px}}@media(min-width"
-                    },
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "cribe .ui-container){width:1360px}}@media(min-width:1600px)and (max-width:0px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1456px}}@media(min-width"
-                    },
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "ontainer):not(.subscribe .ui-container){width:1456px}}@media(min-width:1600px){.programs-layout .ui-container:not(.ui-footer .ui-container):not(.subscribe .ui-container){width:1456px}}.project-header "
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "total_chars": 38722,
+              "features": {}
             },
             {
-              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/8c43e8c.css",
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/56940c3.css",
               "total_lines": 1,
-              "total_chars": 61369,
+              "total_chars": 61667,
               "features": {
                 "has_selector": {
                   "name": ":has() Selector",
@@ -764,9 +814,9 @@
               "features": {}
             },
             {
-              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/8c43e8c.css",
+              "source": "https://cdn.skillbox.pro/wbd-front/skillbox/css/56940c3.css",
               "total_lines": 1,
-              "total_chars": 61369,
+              "total_chars": 61667,
               "features": {
                 "has_selector": {
                   "name": ":has() Selector",
@@ -789,44 +839,22 @@
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 13,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 7,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "GeekBrains": {
           "name": "GeekBrains",
           "url": "https://geekbrains.ru",
           "inline_css": {
             "source": "https://geekbrains.ru (inline)",
-            "total_lines": 123,
-            "total_chars": 1139211,
+            "total_lines": 125,
+            "total_chars": 1143057,
             "features": {
-              "container_queries": {
-                "name": "CSS Container Queries",
-                "count": 2,
-                "instances": [
-                  {
-                    "match": "container:first",
-                    "line": 122,
-                    "context": "ng:0 calc(var(--plyr-control-spacing,10px)/2)}.plyr__controls .plyr__controls__item.plyr__progress__container:first-child,.plyr__controls .plyr__controls__item.plyr__time+.plyr__time,.plyr__controls ."
-                  },
-                  {
-                    "match": "container:after",
-                    "line": 122,
-                    "context": "dden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after{border:4px solid transparent;border-top-color:hsla(0,0%,100%,.9);border:var(--plyr-m"
-                  }
-                ],
-                "description": "Адаптивность на уровне компонентов"
-              },
               "has_selector": {
                 "name": ":has() Selector",
                 "count": 2,
@@ -834,12 +862,12 @@
                   {
                     "match": ":has(",
                     "line": 34,
-                    "context": "tion:relative}@keyframes blink-b7ccf5ae{0%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-b7ccf5ae]:befo"
+                    "context": "tion:relative}@keyframes blink-4f0660a3{0%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-4f0660a3]:befo"
                   },
                   {
                     "match": ":has(",
                     "line": 34,
-                    "context": "%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-b7ccf5ae]:before{animation:blink-b7ccf5ae 1s infinite;b"
+                    "context": "%{opacity:1}50%{opacity:0}to{opacity:1}}.first-section-form:has(button[disabled]:hover) .gb-checkbox:has(input[name=accept_docs]) .body-6[data-v-4f0660a3]:before{animation:blink-4f0660a3 1s infinite;b"
                   }
                 ],
                 "description": "Родительский селектор"
@@ -848,18 +876,13 @@
           },
           "external_css": [],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 2,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 2,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "HTML Academy": {
           "name": "HTML Academy",
@@ -885,23 +908,10 @@
           },
           "external_css": [
             {
-              "source": "https://assets.htmlacademy.ru/css/core.v283.css",
+              "source": "https://assets.htmlacademy.ru/css/core.v284.css",
               "total_lines": 1,
-              "total_chars": 202274,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 1,
-                  "instances": [
-                    {
-                      "match": "container:last",
-                      "line": 1,
-                      "context": "adding-right:25px;padding-left:25px;position:relative;padding-top:1px}.page-content__inner&gt;.text-container:last-child{padding-bottom:40px}.page-content__inner--width-constraint{max-width:1200px}.pa"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "total_chars": 204361,
+              "features": {}
             },
             {
               "source": "https://assets.htmlacademy.ru/css/index-page.v101.css",
@@ -911,26 +921,21 @@
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 1,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 1,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "Нетология": {
           "name": "Нетология",
           "url": "https://netology.ru",
           "inline_css": {
             "source": "https://netology.ru (inline)",
-            "total_lines": 5,
-            "total_chars": 206145,
+            "total_lines": 9,
+            "total_chars": 203460,
             "features": {}
           },
           "external_css": [
@@ -947,9 +952,9 @@
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/41afd63309583807.css",
+              "source": "https://netology.ru/_next/static/css/6ea9d1e4c04571ea.css",
               "total_lines": 1,
-              "total_chars": 101667,
+              "total_chars": 127377,
               "features": {}
             },
             {
@@ -977,57 +982,45 @@
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/960daf025fb47a32.css",
+              "source": "https://netology.ru/_next/static/css/def46029a73e1f94.css",
               "total_lines": 1,
-              "total_chars": 15105,
+              "total_chars": 82859,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/e46aeeb8702f2507.css",
+              "source": "https://netology.ru/_next/static/css/c2fdbb503db54e76.css",
               "total_lines": 1,
-              "total_chars": 100076,
+              "total_chars": 8942,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/4cfa5a5176c38780.css",
+              "source": "https://netology.ru/_next/static/css/f17372a4be31561b.css",
               "total_lines": 1,
-              "total_chars": 8120,
+              "total_chars": 95894,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/295e0097a103e9fe.css",
+              "source": "https://netology.ru/_next/static/css/d3e7df8757906584.css",
               "total_lines": 1,
-              "total_chars": 32227,
+              "total_chars": 4364,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/f608b8b894737e8b.css",
+              "source": "https://netology.ru/_next/static/css/ba6141f54ec91929.css",
               "total_lines": 1,
-              "total_chars": 511,
+              "total_chars": 6473,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/1866218206ce708c.css",
+              "source": "https://netology.ru/_next/static/css/02828dffd8540c9f.css",
               "total_lines": 1,
-              "total_chars": 73856,
+              "total_chars": 4371,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/86f9047004dcbe06.css",
+              "source": "https://netology.ru/_next/static/css/80ef2af43620ae4d.css",
               "total_lines": 1,
-              "total_chars": 9428,
-              "features": {}
-            },
-            {
-              "source": "https://netology.ru/_next/static/css/8159c1df7744ab51.css",
-              "total_lines": 1,
-              "total_chars": 5629,
-              "features": {}
-            },
-            {
-              "source": "https://netology.ru/_next/static/css/465d35354b617cce.css",
-              "total_lines": 1,
-              "total_chars": 971,
+              "total_chars": 95792,
               "features": {}
             },
             {
@@ -1067,15 +1060,27 @@
               "features": {}
             },
             {
+              "source": "https://netology.ru/_next/static/css/bcde3874413c665d.css",
+              "total_lines": 1,
+              "total_chars": 28321,
+              "features": {}
+            },
+            {
               "source": "https://netology.ru/_next/static/css/562c96c81e762c9f.css",
               "total_lines": 1,
               "total_chars": 91589,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/14b7926d33ec3523.css",
+              "source": "https://netology.ru/_next/static/css/cc187da1223f4226.css",
               "total_lines": 1,
-              "total_chars": 6946,
+              "total_chars": 2788,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/2fa53d9fd9e3b232.css",
+              "total_lines": 1,
+              "total_chars": 9311,
               "features": {}
             },
             {
@@ -1085,9 +1090,9 @@
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/b04d119bfc8a21b3.css",
+              "source": "https://netology.ru/_next/static/css/c803c75b4f5d1f31.css",
               "total_lines": 1,
-              "total_chars": 9905,
+              "total_chars": 7981,
               "features": {}
             },
             {
@@ -1127,21 +1132,51 @@
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/a5f68968b0f2b7ad.css",
+              "source": "https://netology.ru/_next/static/css/47c511e9122b4ccd.css",
               "total_lines": 1,
-              "total_chars": 93431,
+              "total_chars": 1969,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/08acb3a0afd308cb.css",
+              "source": "https://netology.ru/_next/static/css/c98804194d69ec91.css",
               "total_lines": 1,
-              "total_chars": 93844,
+              "total_chars": 9977,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/bdfa9a7af31c14a1.css",
+              "source": "https://netology.ru/_next/static/css/1e51354a7c08dd21.css",
               "total_lines": 1,
-              "total_chars": 99352,
+              "total_chars": 75479,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/fd5637f6352fda85.css",
+              "total_lines": 1,
+              "total_chars": 3029,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/e8a98c85c3afa597.css",
+              "total_lines": 1,
+              "total_chars": 7055,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/690b4450d7eead69.css",
+              "total_lines": 1,
+              "total_chars": 11403,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/badb919201c35efd.css",
+              "total_lines": 1,
+              "total_chars": 93810,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/4c99fc883bf36fee.css",
+              "total_lines": 1,
+              "total_chars": 80163,
               "features": {
                 "has_selector": {
                   "name": ":has() Selector",
@@ -1168,40 +1203,28 @@
               }
             },
             {
-              "source": "https://netology.ru/_next/static/css/302c311f4322fecb.css",
-              "total_lines": 1,
-              "total_chars": 14751,
-              "features": {}
-            },
-            {
               "source": "https://netology.ru/_next/static/css/7f572a6f78571a7f.css",
               "total_lines": 1,
               "total_chars": 96794,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/a52e4c1153333aac.css",
+              "source": "https://netology.ru/_next/static/css/308fd92c83bfef13.css",
               "total_lines": 1,
-              "total_chars": 95181,
+              "total_chars": 91770,
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/dd58491e9a63b3e5.css",
+              "source": "https://netology.ru/_next/static/css/dffeb4563e1e7d5d.css",
               "total_lines": 1,
-              "total_chars": 19176,
+              "total_chars": 3100,
+              "features": {}
+            },
+            {
+              "source": "https://netology.ru/_next/static/css/5551d5855bd176a1.css",
+              "total_lines": 1,
+              "total_chars": 19638,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 1,
-                  "instances": [
-                    {
-                      "match": "container:before",
-                      "line": 1,
-                      "context": "e}.bbf7gwp .rc-tree .rc-tree-treenode.dragging{opacity:.28}.bbf7gwp .rc-tree .rc-tree-treenode.drop-container:before,.bbf7gwp .rc-tree:not(:has(.drop-container)) .rc-tree-treenode.drop-target.drag-ove"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
                   "count": 2,
@@ -1222,9 +1245,9 @@
               }
             },
             {
-              "source": "https://netology.ru/_next/static/css/2e08c2ed1aa9067b.css",
+              "source": "https://netology.ru/_next/static/css/15de2d1aff933b2c.css",
               "total_lines": 1,
-              "total_chars": 10948,
+              "total_chars": 14122,
               "features": {}
             },
             {
@@ -1234,136 +1257,58 @@
               "features": {}
             },
             {
-              "source": "https://netology.ru/_next/static/css/5cc3389a08d20bbf.css",
+              "source": "https://netology.ru/_next/static/css/ecc3ddfe6fbc5dcd.css",
               "total_lines": 1,
-              "total_chars": 86535,
-              "features": {}
-            },
-            {
-              "source": "https://netology.ru/_next/static/css/c2fdbb503db54e76.css",
-              "total_lines": 1,
-              "total_chars": 8942,
-              "features": {}
-            },
-            {
-              "source": "https://netology.ru/_next/static/css/333befb5fe413d86.css",
-              "total_lines": 1,
-              "total_chars": 1702,
-              "features": {}
-            },
-            {
-              "source": "https://1238b6ae-6e84-45ec-9f24-340a7f591eed.selcdn.net/frontend/assets/main-oTTl2J5G.css",
-              "total_lines": 2,
-              "total_chars": 953,
+              "total_chars": 1879,
               "features": {}
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 1,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 5,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "Hexlet": {
           "name": "Hexlet",
           "url": "https://hexlet.io",
           "inline_css": {
             "source": "https://hexlet.io (inline)",
-            "total_lines": 161,
-            "total_chars": 42551,
+            "total_lines": 96,
+            "total_chars": 41220,
             "features": {}
           },
           "external_css": [
             {
-              "source": "https://hexlet.io/vite/assets/application-BhDYOUva.css",
-              "total_lines": 2,
-              "total_chars": 681610,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 3,
-                  "instances": [
-                    {
-                      "match": "container:mantine",
-                      "line": 1,
-                      "context": "r(--mantine-font-size-sm)}.m_74ca27fe{margin-bottom:var(--mantine-spacing-sm);padding:0}.m_8478a6da{container:mantine-grid/inline-size}.m_410352e9{--grid-overflow:visible;--grid-margin:calc(var(--grid"
-                    },
-                    {
-                      "match": "container:simple",
-                      "line": 1,
-                      "context": "0f2:where([data-position=center]){padding-inline:calc(var(--scp-thickness) * 3);top:50%}.m_925c2d2c{container:simple-grid/inline-size}.m_2415a157{grid-template-columns:repeat(var(--sg-cols), minmax(0,"
-                    },
-                    {
-                      "match": "container:carousel/inline",
-                      "line": 1,
-                      "context": "relative}.m_a2dae653{height:var(--carousel-height);overflow:hidden}.m_a2dae653[data-type=container]{container:carousel/inline-size}.m_fcd81474{height:var(--carousel-height);flex-direction:row;display:"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
-                "has_selector": {
-                  "name": ":has() Selector",
-                  "count": 30,
-                  "instances": [
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": "e-shadow-xl))}.m_fd1ab0aa [data-mantine-scrollbar]{z-index:1001}[data-offset-scrollbars] .m_fd1ab0aa:has([data-mantine-scrollbar]) .m_b5489c3c{padding-inline-end:calc(var(--mb-padding,var(--mantine-sp"
-                    },
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": "e-end:var(--input-right-section-size)}.m_6c018570[data-size=xs] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(2.5625rem * var(--mantine-scale)"
-                    },
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": "alc(2.5625rem * var(--mantine-scale))}.m_6c018570[data-size=sm] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.125rem * var(--mantine-scale))"
-                    },
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": "calc(3.125rem * var(--mantine-scale))}.m_6c018570[data-size=md] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(3.75rem * var(--mantine-scale))}"
-                    },
-                    {
-                      "match": ":has(",
-                      "line": 1,
-                      "context": ":calc(3.75rem * var(--mantine-scale))}.m_6c018570[data-size=lg] .m_6c018570[data-with-right-section]:has([data-combined-clear-section]){--input-padding-inline-end:calc(4.5rem * var(--mantine-scale))}."
-                    }
-                  ],
-                  "description": "Родительский селектор"
-                }
-              }
+              "source": "https://hexlet.io/vite/assets/application-BpJrLRjx.js",
+              "total_lines": 1,
+              "total_chars": 185,
+              "features": {}
             },
             {
-              "source": "https://hexlet.io/vite/assets/application-BhDYOUva.css",
+              "source": "https://hexlet.io/vite/assets/application-CfLBwi1N.css",
               "total_lines": 2,
-              "total_chars": 681610,
+              "total_chars": 693375,
               "features": {
                 "container_queries": {
                   "name": "CSS Container Queries",
                   "count": 3,
                   "instances": [
                     {
-                      "match": "container:mantine",
+                      "match": "container:mantine-grid/inline-size",
                       "line": 1,
                       "context": "r(--mantine-font-size-sm)}.m_74ca27fe{margin-bottom:var(--mantine-spacing-sm);padding:0}.m_8478a6da{container:mantine-grid/inline-size}.m_410352e9{--grid-overflow:visible;--grid-margin:calc(var(--grid"
                     },
                     {
-                      "match": "container:simple",
+                      "match": "container:simple-grid/inline-size",
                       "line": 1,
                       "context": "0f2:where([data-position=center]){padding-inline:calc(var(--scp-thickness) * 3);top:50%}.m_925c2d2c{container:simple-grid/inline-size}.m_2415a157{grid-template-columns:repeat(var(--sg-cols), minmax(0,"
                     },
                     {
-                      "match": "container:carousel/inline",
+                      "match": "container:carousel/inline-size",
                       "line": 1,
                       "context": "relative}.m_a2dae653{height:var(--carousel-height);overflow:hidden}.m_a2dae653[data-type=container]{container:carousel/inline-size}.m_fcd81474{height:var(--carousel-height);flex-direction:row;display:"
                     }
@@ -1406,15 +1351,15 @@
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 6,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
-              "total_occurrences": 60,
+              "total_occurrences": 30,
               "description": "Родительский селектор"
+            },
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 3,
+              "description": "Адаптивность на уровне компонентов"
             }
           },
           "total_features_found": 2
@@ -1425,63 +1370,28 @@
           "inline_css": {},
           "external_css": [
             {
-              "source": "https://cdn.stepik.net/static/frontend-build/fonts.css?1771251239",
+              "source": "https://cdn.stepik.net/static/frontend-build/fonts.css?1772148282",
               "total_lines": 606,
               "total_chars": 20290,
               "features": {}
             },
             {
-              "source": "https://cdn.stepik.net/static/frontend-build/vendor.css?1771251239",
+              "source": "https://cdn.stepik.net/static/frontend-build/vendor.css?1772148282",
               "total_lines": 1,
               "total_chars": 13854,
               "features": {}
             },
             {
-              "source": "https://cdn.stepik.net/static/frontend-build/critical.css?1771251239",
+              "source": "https://cdn.stepik.net/static/frontend-build/critical.css?1772148282",
               "total_lines": 1,
-              "total_chars": 519941,
-              "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 2,
-                  "instances": [
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "s{margin-left:auto;display:flex;align-items:center}.comments-card__reply{border:none}.comment-card__container:not(:last-child){margin-bottom:2.142em}.comments-card__footer-button:not(.st-button_style_"
-                    },
-                    {
-                      "match": "container:not",
-                      "line": 1,
-                      "context": "-active{top:-30px}.comments-editor .comments-user-avatar{position:relative;top:41px}.comment-reply__container:not(:last-child){margin-bottom:12px}.comments-input{width:100%}.comments-input__editor{mar"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                }
-              }
+              "total_chars": 518499,
+              "features": {}
             },
             {
-              "source": "https://cdn.stepik.net/static/frontend-build/stepic.css?1771251239",
+              "source": "https://cdn.stepik.net/static/frontend-build/stepic.css?1772148282",
               "total_lines": 33,
               "total_chars": 462677,
               "features": {
-                "container_queries": {
-                  "name": "CSS Container Queries",
-                  "count": 2,
-                  "instances": [
-                    {
-                      "match": "container:hover ",
-                      "line": 7,
-                      "context": "ion-show__content .copy-code-btn button{top:0;right:0}.code-editor:hover .copy-code-btn,.code-quiz__container:hover .copy-code-btn,.html-quiz__code-column:hover .copy-code-btn,pre:hover .copy-code-btn"
-                    },
-                    {
-                      "match": "container:not",
-                      "line": 7,
-                      "context": "cursor:not-allowed;filter:grayscale(100%)}.video-player__container{position:relative}.video-player__container:not(.video-player__container_jvs_loaded):after{content:\" \";display:block;position:absolute"
-                    }
-                  ],
-                  "description": "Адаптивность на уровне компонентов"
-                },
                 "has_selector": {
                   "name": ":has() Selector",
                   "count": 2,
@@ -1503,72 +1413,82 @@
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 4,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
               "total_occurrences": 2,
               "description": "Родительский селектор"
             }
           },
-          "total_features_found": 2
+          "total_features_found": 1
         },
         "Coursera": {
           "name": "Coursera",
           "url": "https://coursera.org",
           "inline_css": {
             "source": "https://coursera.org (inline)",
-            "total_lines": 1607,
-            "total_chars": 293145,
+            "total_lines": 1617,
+            "total_chars": 289871,
             "features": {
               "container_queries": {
                 "name": "CSS Container Queries",
-                "count": 11,
+                "count": 9,
                 "instances": [
                   {
                     "match": "@container ",
-                    "line": 1567,
-                    "context": ".01) translate3d(1px, -2px, 16px);transform:scale3d(1.01, 1.01, 1.01) translate3d(1px, -2px, 16px);}@container hero-bento-card (width < 550px){.css-150mpqx{-ms-grid-columns:none;grid-template-columns:"
+                    "line": 1571,
+                    "context": ".01) translate3d(1px, -2px, 16px);transform:scale3d(1.01, 1.01, 1.01) translate3d(1px, -2px, 16px);}@container hero-bento-card (width < 550px){.css-1dxxzpf{-ms-grid-columns:none;grid-template-columns:"
                   },
                   {
                     "match": "@container ",
-                    "line": 1567,
+                    "line": 1571,
                     "context": "ntent:center;justify-content:center;padding-left:var(--cds-spacing-200);gap:var(--cds-spacing-100);}@container hero-bento-card (width < 550px){.css-l88zs4{-webkit-flex:unset;-ms-flex:unset;flex:unset;"
                   },
                   {
                     "match": "@container ",
-                    "line": 1567,
+                    "line": 1571,
                     "context": "{text-align:justify;}.css-4fk9z4 strong{font-weight:var(--cds-font-weight-700);font-family:inherit;}@container hero-bento-card (width < 550px){.css-4fk9z4{font:var(--cds-typography-title-x-small-sm);l"
                   },
                   {
                     "match": "@container ",
-                    "line": 1567,
-                    "context": "text-align:justify;}.css-1rcwhif strong{font-weight:var(--cds-font-weight-700);font-family:inherit;}@container hero-bento-card (width < 550px){.css-1rcwhif{display:none;}}.css-1s18ihl{border-radius:va"
+                    "line": 1571,
+                    "context": "text-align:justify;}.css-1rcwhif strong{font-weight:var(--cds-font-weight-700);font-family:inherit;}@container hero-bento-card (width < 550px){.css-1rcwhif{display:none;}}.css-1q0pagw{border-radius:va"
                   },
                   {
                     "match": "@container ",
-                    "line": 1567,
-                    "context": ":end;justify-content:end;}.css-tt9t7i img{max-height:306px!important;width:100%;object-fit:contain;}@container hero-bento-card (width < 550px){.css-tt9t7i{min-height:138px;}.css-tt9t7i img{max-height:"
+                    "line": 1577,
+                    "context": "-right:var(--cds-spacing-50);}.css-1q0pagw:hover{-webkit-text-decoration:none;text-decoration:none;}@container hero-bento-card (width < 550px){.css-1q0pagw .cds-button-endIcon{display:none;}}.css-1q0p"
                   }
                 ],
                 "description": "Адаптивность на уровне компонентов"
               },
               "has_selector": {
                 "name": ":has() Selector",
-                "count": 2,
+                "count": 33,
                 "instances": [
                   {
                     "match": ":has(",
                     "line": 1483,
-                    "context": "r(--cds-letter-spacing-minus30);}@media (max-width: 1023px){.css-1w1ht4b .cds-multiSelectGroup-label:has(+ div[role='group'][aria-label*='Recently viewed'].cds-multiSelectGroup-list),.css-1w1ht4b .cds"
+                    "context": "pleteOption-content{margin-left:0!important;padding-left:0!important;}.css-1o9bp2f div[role='group']:has([data-group='trending']).cds-multiSelectGroup-list{display:-webkit-box;display:-webkit-flex;dis"
                   },
                   {
                     "match": ":has(",
                     "line": 1483,
-                    "context": "][aria-label*='Recently viewed'].cds-multiSelectGroup-list),.css-1w1ht4b .cds-multiSelectGroup-label:has(+ div[role='group'][aria-label*='learner favorites'].cds-multiSelectGroup-list){margin-bottom:0"
+                    "context": "s-flex-wrap:wrap;flex-wrap:wrap;gap:var(--cds-spacing-100)!important;}.css-1o9bp2f div[role='group']:has([data-group='trending']).cds-multiSelectGroup-list >div[role='option']{padding:0!important;back"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 1483,
+                    "context": "inline-block!important;width:auto!important;min-width:auto!important;}.css-1o9bp2f div[role='group']:has([data-group='trending']).cds-multiSelectGroup-list button.cds-button-secondary,.css-1o9bp2f div"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 1483,
+                    "context": "up='trending']).cds-multiSelectGroup-list button.cds-button-secondary,.css-1o9bp2f div[role='group']:has([data-group='trending']).cds-multiSelectGroup-list .cds-button-secondary{border:1px solid var(-"
+                  },
+                  {
+                    "match": ":has(",
+                    "line": 1483,
+                    "context": ";color:var(--cds-color-grey-975)!important;box-shadow:none!important;}.css-1o9bp2f div[role='group']:has([data-group='recentViewed']).cds-multiSelectGroup-list,.css-1o9bp2f div[role='group']:has([data"
                   }
                 ],
                 "description": "Родительский селектор"
@@ -1584,15 +1504,15 @@
             }
           ],
           "features_summary": {
-            "container_queries": {
-              "name": "CSS Container Queries",
-              "total_occurrences": 11,
-              "description": "Адаптивность на уровне компонентов"
-            },
             "has_selector": {
               "name": ":has() Selector",
-              "total_occurrences": 2,
+              "total_occurrences": 33,
               "description": "Родительский селектор"
+            },
+            "container_queries": {
+              "name": "CSS Container Queries",
+              "total_occurrences": 9,
+              "description": "Адаптивность на уровне компонентов"
             }
           },
           "total_features_found": 2
